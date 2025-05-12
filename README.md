@@ -1,17 +1,17 @@
-QuizGenius – Final Project Setup Guide
+# QuizGenius – Final Project Setup Guide
 
 Hello!
 
 This project contains a full-stack AI-powered quiz generator and quiz taker, built with React (frontend) and Node.js/Express (backend).
 
-=======================
-📁 PROJECT STRUCTURE
+
+## 📁 PROJECT STRUCTURE
 =======================
 - quiz-frontend/   # React + TypeScript frontend
 - quiz-backend/    # Node.js + Express + PostgreSQL backend
 
-=======================
-🚀 GETTING STARTED
+
+## 🚀 GETTING STARTED
 =======================
 
 PREREQUISITES:
