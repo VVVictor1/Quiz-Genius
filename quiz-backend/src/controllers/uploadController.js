@@ -70,13 +70,7 @@ export const getUserFiles = async (req, res) => {
         
         const userFiles = await ExtractContent.findAll({
             where: {
-                userId,
-              /* expiresAt: {
-                [Op.gt]: new Date() // Only get files that haven't expired
-               }
-               order: [['uploadedAt', 'DESC']]  it will not show files after 7 days if uncommented,
-               that feature will be done only when there are too many files on my disk 
-               and implement an auto delete file from disk when the file is older than 7 days, only at the scalability phase */            
+                userId,           
             },
             order: [['uploadedAt', 'DESC']]
         });

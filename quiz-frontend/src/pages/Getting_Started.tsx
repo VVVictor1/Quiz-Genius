@@ -82,10 +82,7 @@ export const NavbarWrapper = styled.div`
   z-index: 1000;
   width: 100%;
 `;
-//I have to revise the responsive design not working as I expect, the sidebar and some of Navbar
-const SidebarWrapper = styled.div`
-  
-`;
+
 
 const Content = styled.div`
   padding: 5px;

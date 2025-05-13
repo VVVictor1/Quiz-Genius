@@ -7,10 +7,7 @@ import GettingStarted from './pages/Getting_Started';
 import { AuthProvider, RedirectIfNOTAuthenticated, ProtectedRoute } from './context/AuthContext';
 import Upload  from './pages/Upload';
 import QuizComponent from './pages/Quiz';
-import QuizSuccessModal from './layout/QuizSuccessModal';
 import QuizCards from './pages/QuizCard';
-import FeedbackQuizModal from './layout/FeedbackQuizModal';
-//import Dashboard from './pages/Dashboard';
 
 
 

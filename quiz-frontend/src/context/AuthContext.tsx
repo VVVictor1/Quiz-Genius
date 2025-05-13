@@ -56,7 +56,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 // RedirectIfAuthenticated component: if user is authenticated, allow access; otherwise, redirect to /login
 export const RedirectIfNOTAuthenticated = ({ children }: { children: React.ReactNode }) => {
   const { isAuthenticated } = useAuth();
-  // If  authenticated, navigate to login page.
+  // If not authenticated, navigate to login page.
   return isAuthenticated ? <Navigate to="/getting-started" /> : <>{children}</> ;
 };
 

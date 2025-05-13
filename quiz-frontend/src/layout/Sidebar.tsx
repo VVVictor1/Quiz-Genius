@@ -48,7 +48,7 @@ const Sidebar = () => {
     <SidebarContainer>
       <NavItem>
         <Icon className="fas fa-home"></Icon>
-        <LinkStyled to="/dashboard">Dashboard</LinkStyled>
+        <LinkStyled to="/getting-started">Getting Started</LinkStyled>
       </NavItem>
       <NavItem>
         <Icon className="fas fa-upload"></Icon>
@@ -57,15 +57,8 @@ const Sidebar = () => {
       <NavItem>
         <Icon className="fas fa-question-circle"></Icon>
         <LinkStyled to="/quiz">Quizzes</LinkStyled>
-      </NavItem>
-      <NavItem>
-        <Icon className="fas fa-calendar-alt"></Icon>
-        <LinkStyled to="/study-plan">Study Plan</LinkStyled>
-      </NavItem>
-      <NavItem>
-        <Icon className="fas fa-cog"></Icon>
-        <LinkStyled to="/settings">Settings</LinkStyled>
-      </NavItem>
+      </NavItem>     
+    
       
       <NavItem>
         <Icon className="fas fa-sign-out-alt"></Icon>
